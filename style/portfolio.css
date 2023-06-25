@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #30bafa;
    --secondary-color: #f9f7fe;
   --heading-font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -37,7 +37,7 @@ p {
 }
 
 .hero {
-  background: #f9f7fe;
+  background: #C5E6EB;
   text-align: center;
   padding: 160px 20px;
 }
