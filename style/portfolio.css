@@ -1,8 +1,8 @@
 :root {
   --branding-color: #30bafa;
   --secondary-color: #f9f7fe;
-  --heading-font-family: "Staatliches", cursive;
-  --name-font-family: "Rock Salt", cursive;
+  --heading-font-family: "Playfair Display", serif;
+  --name-font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -95,26 +95,33 @@ p {
   }
 }
 
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
 
-.about-section {
-  text-align: center;
-  padding: 0;
-}
-
-.about-section h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: var(--heading-font-family);
 }
 
-.about-section h2 {
+.content h2 {
   font-size: 18px;
   font-family: charter;
 }
 
-.about-section-content {
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--name-font-family);
+}
+
+.content {
   margin: 30px;
+  text-align: center;
+}
+
+.content p {
+  font-size: 14px;
+  font-family: var(--name-font-family);
 }
