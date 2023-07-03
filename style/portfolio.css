@@ -34,9 +34,10 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+/*#c5e6eb;*/
 
 .hero {
-  background: #c5e6eb;
+  background: #f9f7fe;
   text-align: center;
   padding: 160px 20px;
 }
@@ -173,7 +174,7 @@ footer .social-links a {
   background-color: var(--secondary-color);
   padding: 10px;
   font-size: 10px 14px;
-  border-radius: 50%;
+  border-radius: 30%;
   transition: all 100ms ease-in-out;
 }
 
@@ -196,9 +197,13 @@ footer .social-links a:hover {
 footer .contact-box {
   background-color: var(--secondary-color);
   padding: 30px 120px;
-  border-radius: 10px;
+  border-radius: 9px;
 }
 
 footer .contact-box p {
   margin: 0;
+}
+
+.contact-page {
+  background: #f9f7fe;
 }
