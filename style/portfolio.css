@@ -37,7 +37,7 @@ p {
 /*#c5e6eb;*/
 
 .hero {
-  background: #f9f7fe;
+  background: #22caf0;
   text-align: center;
   padding: 160px 20px;
 }
@@ -57,17 +57,17 @@ p {
 }
 
 .btn-branding {
-  background: var(--branding-color);
+  background: whitesmoke;
   border-radius: 4px;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
 }
 
 .btn-branding-outline {
-  color: var(--branding-color);
-  border: 1px solid var(--branding-color);
+  color: #22caf0;
+  border: 1px solid #22caf0;
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
@@ -105,6 +105,8 @@ p {
 
 .logo {
   max-width: 150px;
+  margin-left: -70px;
+  margin-top: -20px;
 }
 
 nav {
@@ -195,7 +197,7 @@ footer .social-links a:hover {
 }
 
 footer .contact-box {
-  background-color: var(--secondary-color);
+  background-color: #22caf0;
   padding: 30px 120px;
   border-radius: 9px;
 }
